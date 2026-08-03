@@ -1,19 +1,49 @@
-const CACHE='fiscalizacion-bi-tech18-build-5';
-const CORE=[
-  './','./index.html','./assets/css/app.css','./manifest.webmanifest','./escudo_sarapiqui_v17.png',
-  './assets/icons/icon-192.png','./assets/icons/icon-512.png',
-  './assets/icons/icon-maskable-192.png','./assets/icons/icon-maskable-512.png',
-  './assets/icons/apple-touch-icon.png','./assets/icons/favicon-48.png'
-];
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
-self.addEventListener('message',event=>{if(event.data==='SKIP_WAITING')self.skipWaiting()});
-self.addEventListener('fetch',event=>{
-  const request=event.request;
-  if(request.method!=='GET'||new URL(request.url).origin!==self.location.origin)return;
-  if(request.mode==='navigate'){
-    event.respondWith(fetch(request).then(response=>{if(response&&response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put('./index.html',copy))}return response}).catch(()=>caches.match('./index.html')));
-    return;
-  }
-  event.respondWith(caches.match(request).then(cached=>cached||fetch(request).then(response=>{if(response&&response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(request,copy))}return response})));
-});
+{
+  "id": "./fiscalizacion-bi",
+  "name": "Fiscalización B.I.",
+  "short_name": "Fiscalización B.I.",
+  "description": "Aplicación municipal instalable para inspección y fiscalización de bienes inmuebles, optimizada para teléfono, tablet y navegador de escritorio.",
+  "start_url": "./?app=fiscalizacion-bi",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#f2f7f4",
+  "theme_color": "#17633d",
+  "lang": "es-CR",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "productivity",
+    "utilities"
+  ]
+}
