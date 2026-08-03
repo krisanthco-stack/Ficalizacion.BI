@@ -1,9 +1,9 @@
 {
-  "id": "./?v=17.1-final",
-  "name": "Libreta de Fiscalización V17.1 Final",
-  "short_name": "Fiscalización V17.1",
-  "description": "Aplicación instalable en teléfono y tablet para inspección y fiscalización municipal de bienes inmuebles.",
-  "start_url": "./?v=17.1-final",
+  "id": "./fiscalizacion-bi",
+  "name": "Fiscalización B.I.",
+  "short_name": "Fiscalización B.I.",
+  "description": "Aplicación municipal instalable para inspección y fiscalización de bienes inmuebles, optimizada para teléfono, tablet y navegador de escritorio.",
+  "start_url": "./?app=fiscalizacion-bi",
   "scope": "./",
   "display": "standalone",
   "display_override": [

@@ -1,0 +1,37 @@
+{
+  "url": "inline:index.html",
+  "viewports": {
+    "mobile": {
+      "overflow": false,
+      "observationFieldCount": 1,
+      "sameCaptureRow": true,
+      "pageErrors": []
+    },
+    "tablet": {
+      "overflow": false,
+      "observationFieldCount": 1,
+      "sameCaptureRow": true,
+      "pageErrors": []
+    },
+    "desktop": {
+      "overflow": false,
+      "observationFieldCount": 1,
+      "sameCaptureRow": true,
+      "pageErrors": []
+    }
+  },
+  "checks": {
+    "appVersion": "18.1.1",
+    "manifestName": "Fiscalización B.I.",
+    "captureDisplayFilled": true,
+    "stateObservationPreserved": true,
+    "summaryHasCaptureAndObservationsSameRow": true,
+    "inmuebleHasNoObservations": true,
+    "docxObservationBeforeDatosInmueble": true,
+    "docxDatosInmuebleHasNoObservations": true,
+    "acceptedAnnexFalse": true,
+    "runtimeErrors": []
+  },
+  "errors": [],
+  "passed": true
+}
