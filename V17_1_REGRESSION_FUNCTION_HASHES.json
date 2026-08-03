@@ -1,0 +1,128 @@
+[
+  {
+    "function": "blankCase",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "c27a6ac882a9788b9964e74919623cd5c77b8f6e9db0d4e363976d704a288d2d",
+    "v17_1_sha256": "c27a6ac882a9788b9964e74919623cd5c77b8f6e9db0d4e363976d704a288d2d"
+  },
+  {
+    "function": "normalizeCase",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "409b212b25f3f2cb77919e1bd56c53d0179cb295fe0358ab293841f452ec4a30",
+    "v17_1_sha256": "409b212b25f3f2cb77919e1bd56c53d0179cb295fe0358ab293841f452ec4a30"
+  },
+  {
+    "function": "saveCase",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "2f5cbe2b73c32383c9a7cec4c9163e5edb8260ae79a7b8e60d24fdc4c064fb69",
+    "v17_1_sha256": "2f5cbe2b73c32383c9a7cec4c9163e5edb8260ae79a7b8e60d24fdc4c064fb69"
+  },
+  {
+    "function": "newCase",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "1ac7badd5317f5c270869c3cc8a369ad3bf81edf024129ab4389b510fe7e1bfa",
+    "v17_1_sha256": "1ac7badd5317f5c270869c3cc8a369ad3bf81edf024129ab4389b510fe7e1bfa"
+  },
+  {
+    "function": "loadCase",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "ad0a41c4f530a3cc8977c4e532084eb04e11f18f17ec6b6f57763793d75f7ca1",
+    "v17_1_sha256": "ad0a41c4f530a3cc8977c4e532084eb04e11f18f17ec6b6f57763793d75f7ca1"
+  },
+  {
+    "function": "deleteCase",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "76c8599ae2e5dc04d54d0a603451c322cfb5662925341904afde144d801850b8",
+    "v17_1_sha256": "76c8599ae2e5dc04d54d0a603451c322cfb5662925341904afde144d801850b8"
+  },
+  {
+    "function": "renderConstructions",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "ab7c55590e90fbc399d005b8b6cc29f2a56af61384a02d8c57f3b2c344113232",
+    "v17_1_sha256": "ab7c55590e90fbc399d005b8b6cc29f2a56af61384a02d8c57f3b2c344113232"
+  },
+  {
+    "function": "processPhotoSelection",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "a76f4e91923d4c51613e7071029e0863b48416813aed9b8064c6a80b5ee5dbd7",
+    "v17_1_sha256": "a76f4e91923d4c51613e7071029e0863b48416813aed9b8064c6a80b5ee5dbd7"
+  },
+  {
+    "function": "captureMainGps",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "6cadb3cc86272c3aee9d774afb9f009399b633b16bff98964c45b26a3ebb7e87",
+    "v17_1_sha256": "6cadb3cc86272c3aee9d774afb9f009399b633b16bff98964c45b26a3ebb7e87"
+  },
+  {
+    "function": "runAudit",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "338fcf3b866f52196b029f8c93e8941dff451607955c450228d221cd5781d3da",
+    "v17_1_sha256": "338fcf3b866f52196b029f8c93e8941dff451607955c450228d221cd5781d3da"
+  },
+  {
+    "function": "importExcelFile",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "a6ea90bd453cdab57a3762b89bdc342bc2dba81333e12c539e813f88f12c3546",
+    "v17_1_sha256": "a6ea90bd453cdab57a3762b89bdc342bc2dba81333e12c539e813f88f12c3546"
+  },
+  {
+    "function": "sendCurrentCase",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "096e7172ff46a6d2895ff450ebdc6d91722942798a73b3360207f809601678cb",
+    "v17_1_sha256": "096e7172ff46a6d2895ff450ebdc6d91722942798a73b3360207f809601678cb"
+  },
+  {
+    "function": "constructionReportSummary",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "a531f78c09c5364e55e44cbdb2d7cafbb53d3a07789a129333ea8e0dce1107ff",
+    "v17_1_sha256": "a531f78c09c5364e55e44cbdb2d7cafbb53d3a07789a129333ea8e0dce1107ff"
+  },
+  {
+    "function": "getApplicableFiscalComponents",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "286d9bc6c78919345651b522fdbb573ec7fc5dc9b911d5dcc4bc56f7243090de",
+    "v17_1_sha256": "286d9bc6c78919345651b522fdbb573ec7fc5dc9b911d5dcc4bc56f7243090de"
+  },
+  {
+    "function": "fiscalizationAssessment",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "b6a8c4f6dd88f8807c5818c121b37821f425753fa284dc17a806af09bd15115a",
+    "v17_1_sha256": "b6a8c4f6dd88f8807c5818c121b37821f425753fa284dc17a806af09bd15115a"
+  },
+  {
+    "function": "valuationAnnexReportHtml",
+    "group": "frozen",
+    "same": true,
+    "v17_0_sha256": "0921826aa4910d0cfeb6e4968d568b643e93b76d47b35b1ac4dc3979fb6ab7f5",
+    "v17_1_sha256": "0921826aa4910d0cfeb6e4968d568b643e93b76d47b35b1ac4dc3979fb6ab7f5"
+  },
+  {
+    "function": "buildReportHtml",
+    "group": "report",
+    "same": false,
+    "v17_0_sha256": "be35913f6b92aaaca8cc2dae4ed94a1bcf89c53907f6c90d2cbde5819a4f5190",
+    "v17_1_sha256": "031294c3034973b62d6fb9c118a6e19b18be29c2ce0cbf24452414c81b881a53"
+  },
+  {
+    "function": "makeDocx",
+    "group": "report",
+    "same": false,
+    "v17_0_sha256": "9fef1125be3c999fe0f9f30ddcaf18e190d9e74f0aaf5fd9a29a8ef0530a4037",
+    "v17_1_sha256": "a2157308b8dfee635cbbee9c854606470947e448be9c875599cfcc65d72ce594"
+  }
+]
