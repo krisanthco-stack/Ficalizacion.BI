@@ -1,37 +1,75 @@
 {
-  "url": "inline:index.html",
-  "viewports": {
-    "mobile": {
-      "overflow": false,
-      "observationFieldCount": 1,
-      "sameCaptureRow": true,
-      "pageErrors": []
+  "release": "Fiscalización B.I.",
+  "internalVersion": "18.3.0",
+  "validationMode": "Análisis estático, sintaxis JavaScript, orden jerárquico con datos de prueba, adaptación multidispositivo, consistencia de manifiesto, seguridad de pasarela e integración del flujo. La entrega real del correo requiere desplegar y autorizar Apps Script.",
+  "checks": {
+    "appVersion18_3_0": true,
+    "hierarchyDistrictTransactionPlace": true,
+    "oldestTransactionFirst": true,
+    "missingTransactionLast": true,
+    "districtSectionsRendered": true,
+    "placeHighlighted": true,
+    "responsiveDesktopTabletPhone": true,
+    "storedCasesRemainUnchanged": true,
+    "installedNameWithoutVersion": true,
+    "manifestStableId": true,
+    "cacheBumped": true,
+    "inlineScriptMatchesSource": true,
+    "uniqueHtmlIds": true,
+    "threeSendButtons": true,
+    "sendNextToApprovalSignature": true,
+    "fixedRecipientClient": true,
+    "fixedRecipientServer": true,
+    "serverBuildsSubject": true,
+    "readinessRequiresApprovalSignature": true,
+    "auditBlocksMissingApprovalSignature": true,
+    "wordGeneratedByExistingEngine": true,
+    "pdfGeneratedByGateway": true,
+    "bothAttachmentsSent": true,
+    "oauthGatewayToken": true,
+    "duplicateProtection": true,
+    "serverIgnoresClientRecipient": true,
+    "serverIgnoresClientSubject": true,
+    "queueImplemented": true,
+    "acceptedValuesOmitAnnex": true,
+    "responsiveEmailCss": true,
+    "responsiveCaseHierarchyCss": true,
+    "noEmailPasswordInRelease": true,
+    "nodeAppSyntax": true,
+    "nodeInlineSyntax": true,
+    "nodeBackendSyntax": true
+  },
+  "details": {
+    "htmlIdCount": 107,
+    "duplicateIds": [],
+    "appScriptSha256": "054b936d91fb6faa521838b9f8c24821fa5a9701a4ff3b55a94773c50cab8d8c",
+    "inlineScriptSha256": "054b936d91fb6faa521838b9f8c24821fa5a9701a4ff3b55a94773c50cab8d8c",
+    "orderingSample": [
+      "La Virgen|BI-2026-0002|San Gerardo",
+      "Puerto Viejo|BI-2025-0999|Centro",
+      "Puerto Viejo|BI-2026-0010|Bosque",
+      "Puerto Viejo|BI-2026-0100|La Guaria",
+      "Puerto Viejo|SIN NUMERO|Aldea"
+    ],
+    "nodeApp": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
     },
-    "tablet": {
-      "overflow": false,
-      "observationFieldCount": 1,
-      "sameCaptureRow": true,
-      "pageErrors": []
+    "nodeInline": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
     },
-    "desktop": {
-      "overflow": false,
-      "observationFieldCount": 1,
-      "sameCaptureRow": true,
-      "pageErrors": []
+    "nodeBackend": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
     }
   },
-  "checks": {
-    "appVersion": "18.1.1",
-    "manifestName": "Fiscalización B.I.",
-    "captureDisplayFilled": true,
-    "stateObservationPreserved": true,
-    "summaryHasCaptureAndObservationsSameRow": true,
-    "inmuebleHasNoObservations": true,
-    "docxObservationBeforeDatosInmueble": true,
-    "docxDatosInmuebleHasNoObservations": true,
-    "acceptedAnnexFalse": true,
-    "runtimeErrors": []
-  },
-  "errors": [],
-  "passed": true
+  "passed": true,
+  "failed": []
 }

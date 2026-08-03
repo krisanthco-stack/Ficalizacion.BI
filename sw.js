@@ -1,4 +1,4 @@
-const CACHE='fiscalizacion-bi-tech18-build-3';
+const CACHE='fiscalizacion-bi-tech18-build-5';
 const CORE=[
   './','./index.html','./assets/css/app.css','./manifest.webmanifest','./escudo_sarapiqui_v17.png',
   './assets/icons/icon-192.png','./assets/icons/icon-512.png',
