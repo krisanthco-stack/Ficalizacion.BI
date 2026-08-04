@@ -1,8 +1,9 @@
 {
   "id": "./fiscalizacion-bi",
+  "version": "19.1.0",
   "name": "Fiscalización B.I.",
   "short_name": "Fiscalización B.I.",
-  "description": "Aplicación municipal instalable para inspección y fiscalización de bienes inmuebles, optimizada para teléfono, tablet y navegador de escritorio.",
+  "description": "Aplicación municipal instalable para inspección y fiscalización de bienes inmuebles, con tres estados por color y vista adaptada a teléfono, tablet y computadora.",
   "start_url": "./?app=fiscalizacion-bi",
   "scope": "./",
   "display": "standalone",
